@@ -16,7 +16,7 @@ Installation of dependencies is handled in the [Getting Started](#getting-starte
 2. Get your App Level Token and OAuth Tokens for your App.
 3. Clone this repository.
    ```bash
-   git clone git@git.cs.slu.edu:courses/spring23/csci_3300/zahmed2.git
+   git clone https://github.com/em-henken/slackbot-password-manager.git
    ```
 4. Create and activate your virtual environment.
    ```bash
@@ -36,19 +36,8 @@ Installation of dependencies is handled in the [Getting Started](#getting-starte
 
 ## Commands
 
-Billiken Bot can perform a number of tasks as your personal assistant! This involves translations, scheduling events/reminders, as well as looking up numerous bits of SLU information. Billiken Bot can get up-to-date news articles featured on SLU's page, open dining options on SLU's campus, as well as recreational center hours and final exam schedules for students! Here is a list of commands to try:
+Billiken Bot can perform a number of tasks as your password manager! Here is a list of commands to try:
 
-#### /translate < target-language > < message >
-
-Translate any message to a given language.
-
-#### /schedule < event-name > < (start) yyyy-mm-dd hh:mm > < (end) yyyy-mm-dd hh:mm >
-
-Schedule an event.
-
-#### /get-schedule
-
-Retrieve all your scheduled events, in order.
 
 #### /pw-manager-join < access-code >
 
@@ -70,29 +59,7 @@ Change username/password data.
 
 Remove an account's login data.
 
-#### /rec
 
-Retrieve recreational center hours.
-
-#### /dining
-
-Retrieve open dining spots and their hours.
-
-#### /finals
-
-Retrieve current semester finals schedule.
-
-#### /news
-
-Retrieve current SLU news.
-
-## Translate Library and Documentation
-
-The Billiken Bot uses an open-source Python library that connects to Google Translate API. This library is capable of making free unlimited translation calls with a limit of 15,000 characters at a time. Library documentation can be found [here](https://pypi.org/project/googletrans/).
-
-## BeautifulSoup4 Library and Documentation
-
-The Billiken Bot uses an open-source Python library called BeautifulSoup4, which is used for web scraping and parsing HTML and XML documents. The documentation for BeautifulSoup4 can be found [here](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
 ## SQLite Database and Documentation
 
