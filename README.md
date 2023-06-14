@@ -1,6 +1,6 @@
 # Billiken Bot
 
-Billiken Bot is a Slack Application that serves as a SLU-oriented professional assistant. Billiken Bot can set/create reminders, create and store schedules, translate multiple languages, and keep Slack members up to date with SLU information!
+Billiken Bot is a Slack Application that serves as a login info assistant! It can store, retrieve, change, and remove usernames and passwords for different accounts the user has.
 
 ## Requirements
 
