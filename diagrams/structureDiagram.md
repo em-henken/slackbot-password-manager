@@ -1,15 +1,16 @@
 ```mermaid
 classDiagram
     App <|-- Manager
-    App <|-- Scheduler
     SlackChannel <|-- App
     App : +OAuth Token
     App : +App-Level Token
     class Manager{
         + database import
-        +addPassword()
-        +getPasswords()
-        +removePassword()
+        +join()
+	+add()
+        +get()
+        +remove()
+	+update()
     }
     class SlackChannel{
         + OAuth permissions
