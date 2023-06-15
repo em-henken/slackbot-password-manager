@@ -4,7 +4,7 @@ classDiagram
     SlackChannel <|-- App
     App : +OAuth Token
     App : +App-Level Token
-    class Manager{
+    class PasswordManager{
         + database import
         +join()
 	+add()
