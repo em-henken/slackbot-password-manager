@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-    App <|-- Manager
+    App <|-- PasswordManager
     SlackChannel <|-- App
     App : +OAuth Token
     App : +App-Level Token
