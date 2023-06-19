@@ -64,3 +64,8 @@ Remove an account's login data.
 ## SQLite Database and Documentation
 
 The Billiken Bot also utilizes the SQLite database, which is a lightweight and easy-to-use database management system that is integrated into Python. The documentation for SQLite can be found [here](https://sqlite.org/docs.html).
+
+
+## Original project
+
+This project includes Emily Henken's contribution to her group's project. The whole of the original group project is found here: https://git.cs.slu.edu/courses/spring23/csci_3300/zahmed2.
